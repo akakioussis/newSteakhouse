@@ -139,12 +139,6 @@
   background-size: cover;
   background-image: linear-gradient(rgba(0, 0, 0, 0.26), rgba(0, 0, 0, 0.048)), url("../assets/img/steakonfire.jpg"); }
 
-.underimage-text {
-  font-size: 1em;
-  font-weight: 500;
-  background-color: #180505;
-  height: 30vh; }
-
 @media only screen and (max-width: 800px) {
   .navbar-left {
     display: none; }
@@ -154,13 +148,11 @@
     width: 100%;
     text-align: center; }
   .navbar-item {
-    float: none;
     margin: 0;
-    display: inline-flex;
+    display: block;
     padding: 10px;
-    margin: 10px; } }
-
-@media only screen and (max-width: 700px) {
+    margin: 10px;
+    font-size: 1em; }
   .slogan {
     display: none; }
   .header {
@@ -168,7 +160,18 @@
   .inbetweener {
     display: none; }
   .section {
-    border-top-left-radius: 0px; } }
+    border-top-left-radius: 0px; }
+  .section-content {
+    margin-top: 0.1em; }
+  .navbar-top {
+    display: none; }
+  .images {
+    width: 50%; }
+  .image-row1 {
+    height: 50%;
+    width: 100%; }
+  .navbar-item {
+    margin: 0; } }
 
 * {
   margin: 0;

@@ -11,15 +11,13 @@
      }
 
      .navbar-item {
-         float: none;
          margin: 0;
-         display: inline-flex;
+         display: block;
          padding: 10px;
          margin: 10px;
+         font-size: 1em;
      }
- }
 
- @media only screen and (max-width: 700px) {
      .slogan {
          display: none;
      }
@@ -34,7 +32,27 @@
 
      .section {
          border-top-left-radius: 0px;
+     }
 
+     .section-content {
+         margin-top: 0.1em;
+     }
+
+     .navbar-top {
+         display: none;
+     }
+
+     .images {
+         width: 50%;
+     }
+
+     .image-row1 {
+         height: 50%;
+         width: 100%;
+     }
+
+     .navbar-item {
+         margin: 0;
      }
 
  }

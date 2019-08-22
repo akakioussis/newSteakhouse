@@ -50,10 +50,10 @@
   font-size: 1.5em;
   font-weight: 500;
   font-family: 'Ultra', serif;
-  color: #da802c;
+  color: white;
   transition: all 1s;
   transition-timing-function: ease;
-  text-shadow: 3px 3px #180505; }
+  text-shadow: 3px 3px #180e05; }
 
 .header {
   height: 75vh;
@@ -90,6 +90,7 @@
   align-items: center;
   margin-top: 0.5em;
   transition: all 1s;
+  text-align: center;
   transition-timing-function: ease; }
 
 .section {

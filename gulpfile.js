@@ -15,7 +15,11 @@ function style() {
 }
 
 gulp.task('build', async function () {
-    gulp.src('./src/**')
+    gulp.src('./src/css')
+        .pipe(gulp.dest('./dist'));
+    gulp.src('./src/assets')
+        .pipe(gulp.dest('./dist'));
+    gulp.src('./src/*.index')
         .pipe(gulp.dest('./dist'));
 });
 

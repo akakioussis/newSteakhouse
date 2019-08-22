@@ -14,6 +14,11 @@ function style() {
         .pipe(browserSync.stream());
 }
 
+gulp.task('build', async function () {
+    gulp.src('./src/**')
+        .pipe(gulp.dest('./dist'));
+});
+
 function watch() {
     browserSync.init({
         server: {
@@ -24,6 +29,7 @@ function watch() {
     gulp.watch('./src/*.html').on('change', browserSync.reload);
     gulp.watch('./src/js/**/*.js').on('change', browserSync.reload);
 }
+
 
 exports.style = style;
 exports.watch = watch;

@@ -19,7 +19,7 @@ gulp.task('build', async function () {
         .pipe(gulp.dest('./dist'));
     gulp.src('./src/assets')
         .pipe(gulp.dest('./dist'));
-    gulp.src('./src/*.index')
+    gulp.src('./src/*.html')
         .pipe(gulp.dest('./dist'));
 });
 
